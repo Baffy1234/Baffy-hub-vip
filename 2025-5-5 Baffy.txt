@@ -1,0 +1,103 @@
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Tubo-lite/refs/heads/main/Haidepzai"))()
+local SaveManager = 
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Baffy hub",
+         Animation = "Script tổng hợp vip"
+         },
+        Key = {
+        KeySystem = true,
+        Title = "Get Key",
+        Description = "",
+        KeyLink = "https://yeumoney.com/nEkGZY9S",
+        Keys = {"BaffyMaiĐinh"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=80119881122710",
+       Size = {40, 40},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab2o = MakeTab({Name = "Script faram chest"})
+     
+    
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "W azure",
+    Callback = function()
+	getgenv().Team = "Pirates"
+getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+     })   AddButton(Tab1o, {
+     Name = "Kiwi Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhhhhhhhhhhh1910/Versin1.0/refs/heads/main/Kiwihubv1.0"))()(Settings)
+  end
+  })     AddButton(Tab2o, {
+     Name = "KIWI CHEST",
+    Callback = function()
+	getgenv().Team = "Pirates"
+getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
+getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhhhhhhhhhhh1910/Kiwifarmchest/refs/heads/main/Kiwichestv1.0"))()
+  end
+     })     AddButton(Tab1o, {
+     Name = "Hiru hub",
+    Callback = function()
+	getgenv().Team = "Pirates"loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaStupid/Source/main/HiruHubVeriV2.lua"))()
+  end
+     })     AddButton(Tab1o, {
+     Name = "Master hub",
+    Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/obfmoonsec/Masterhub/refs/heads/main/obf"))()
+  end
+     })     AddButton(Tab1o, {
+     Name = "Redz hub",
+    Callback = function()
+	local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
+  end
+     })     AddButton(Tab1o, {
+     Name = "Xeter hub",
+    Callback = function()
+	getgenv().Version = "V2"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+  end
+     })     AddButton(Tab1o, {
+     Name = "Xero hub",
+    Callback = function()
+	getgenv().Team = "Marines"
+getgenv().Hide_Menu = false
+getgenv().Auto_Execute = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+  end
+     })
+
+
